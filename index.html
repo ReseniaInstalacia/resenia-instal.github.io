@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Instalacia Pro</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+<header id="header">
+<!--  Brand Logo  -->
+<a class="nav-brand" >
+  Instalacia Pro
+</a>
+
+<!--  Menus  -->
+<nav id="nav-bar" class="navbar">
+  <ul class="menu">
+    <li><a class="nav-link" href="#featured" id="sluzby">Služby</a></li>
+    <li><a class="nav-link" href="#about" id="aboutus">O nás</a></li>
+    <li class="lang-link-button"><img src="./image/langicon.svg" style="width: 15px;">
+      <ul class="lang_link">
+      <li class="lang_link_option"><button onclick="setLanguage('sl')" class="lang_link_option_text" ><img src="./image/flag/slovakia-svgrepo-com.svg" style="width: 20px; padding-right: 10px; box-sizing: unset;">Slovenská</button></li>
+      <li class="lang_link_option"><button onclick="setLanguage('ru')" class="lang_link_option_text" ><img src="./image/flag/russia-svgrepo-com.svg" style="width: 20px; padding-right: 10px; box-sizing: unset;">Русский</button></li>
+      <li class="lang_link_option"><button onclick="setLanguage('de')" class="lang_link_option_text" ><img src="./image/flag/germany-svgrepo-com.svg" style="width: 20px; padding-right: 10px; box-sizing: unset;">Deutsch</button></li>
+      <li class="lang_link_option"><button onclick="setLanguage('en')" class="lang_link_option_text" ><img src="./image/flag/united-kingdom-svgrepo-com.svg" style="width: 20px; padding-right: 10px; box-sizing: unset;">English</button></li>
+      <li class="lang_link_option"><button onclick="setLanguage('ua')" class="lang_link_option_text"><img src="./image/flag/ukraine-svgrepo-com.svg" style="width: 20px; padding-right: 10px; box-sizing: unset;">Українська</button></li>
+      <li class="lang_link_option"><button onclick="setLanguage('cz')" class="lang_link_option_text" ><img src="./image/flag/czech-republic-svgrepo-com.svg " style="width: 20px; padding-right: 10px; box-sizing: unset; ">Čzech</button></li>
+      <li class="lang_link_option_last"><button onclick="setLanguage('it')" class="lang_link_option_text" ><img src="./image/flag/italy-svgrepo-com.svg " style="width: 20px; padding-right: 10px; box-sizing: unset; ">Italiano</button></li>
+  </ul>
+  </li>
+  </ul>
+ 
+</nav>
+</header>
+
+<!-- Hero Section -->
+<div class="hero">
+<div class="hero-text">
+  <h1 id="mainpagetitle">Pohodlie vo vašom obytnom priestore</h1>
+  <a href="#featured" class="btn_main" id="buttonviac">Viac informácií</a>
+</div>
+</div>
+
+<!-- Featured Section -->
+<section id="featured" class="featured">
+<div class="title title-left">
+  <span class="line"></span><h3 id="sluzbyname">Naše služby</h3>
+</div>
+<div class="wrapper">
+  <div class="image" >
+    <img src="./image/elec.jpg" alt="Сантехник с унитазом" >
+  </div>
+  <div class="text">
+    <h2 id="elektrikaname">— Elektrická inštalácia</h2>
+    <p id="elektrikades">Ponúkame profesionálnu inštaláciu a servis elektrických systémov. Naši skúsení odborníci zabezpečia rýchlu a kvalitnú montáž elektroinštalácií, zásuviek, vypínačov, osvetlenia a ďalších elektrických zariadení, vrátane opráv a údržby.</p>
+    <a href="#popup3" class=btn id="cennik">Cena</a>
+    <a href="#" class="open-slider btn" data-slider="slider1">Príklad prác</a>
+    <a href="tel:+16273812312312" class=btn id="sluzbacall">Objednať službu</a>
+  </div>
+</div>
+<div class="wrapper">
+    <div class="image" >
+      <img src="./image/san.jpg" alt="Сантехник с унитазом" >
+    </div>
+    <div class="text">
+      <h2 id="sanitaname">— Inštalatérske práce</h2>
+      <p id="sanitades">Ponúkame profesionálnu inštaláciu sanita, vodovodných a kanalizačných systémov. Naši skúsení odborníci zabezpečia rýchlu a kvalitnú montáž všetkých druhov sanitárnych zariadení, vrátane umývadiel, toaliet, sprchových kútov a batérií.</p>
+      <a href="#popup" class=btn id="cennik1">Cena</a>
+      <a href="#" class="open-slider btn" data-slider="slider2">Príklad prác</a>
+      <a href="tel:+16273812312312" class=btn id="sluzbacall1">Objednať službu</a>
+    </div>
+  </div>
+<div class="wrapper">
+    <div class="image">
+      <img src="./image/cond.jpg" alt="Сантехник с унитазом" >
+    </div>
+    <div class="text">
+      <h2 id="klimatname">— Inštalácia klimatizácie</h2>
+      <p id="klimatedes">Ponúkame profesionálnu inštaláciu a servis klimatizácie. Naši odborníci zabezpečia správnu montáž a pravidelnú údržbu klimatizačných jednotiek, čím zaistíme ich efektívnu a dlhodobú prevádzku.</p>
+      <a href="#popup1" class=btn id="cennik2">Cena</a>
+      <a href="#" class="open-slider btn" data-slider="slider3">Príklad prác</a>
+      <a href="tel:+16273812312312" class=btn id="sluzbacall2" >Objednať službu</a>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="image">
+        <img src="./image/IMGG.png" alt="Сантехник с унитазом">
+    </div>
+    <div class="text">
+      <h2 id="vikurname">— Inštalácia vykurovania</h2>
+      <p id="vikurdes">Ponúkame profesionálnu inštaláciu vykurovacích systémov. Naši odborníci zabezpečia montáž rôznych typov vykurovania, vrátane podlahového vykurovania, radiátorov a kotlov, aby zabezpečili optimálnu teplotu vo vašich priestoroch.</p>
+      <a href="#popup2" class=btn id="cennik3">Cena</a>
+      <a href="#" class="open-slider btn" data-slider="slider4">Príklad prác</a>
+      <a href="tel:+16273812312312" class=btn id="sluzbacall3">Objednať službu</a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- About Section -->
+<section id="about">
+<div class="title title-left">
+  <span class="line"></span><h3>Instalacia Pro</h3>
+</div>
+<div class="wrapper">
+  <div class="text">
+    <p id="description">Náš tím je vaším spoľahlivým partnerom v oblasti inštalácie vodovodných, vykurovacích, klimatizačných a elektrických zariadení. Ponúkame vysokokvalitné montážne a údržbárske služby pre všetky typy systémov, čím zabezpečujeme spoľahlivosť a dlhodobú prevádzku zariadení. Naši odborníci s dlhoročnými skúsenosťami zaručujú presnosť, efektívnosť a bezpečnosť v každej fáze - od návrhu až po dokončenie inštalácie. S nami máte svoje pohodlie a bezpečnosť vždy pod kontrolou!</p>
+  </div>
+  <div class="video-wrapper">
+    
+  </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+<div class="wrapper">
+  <div class="form-wrapper">
+    <h4 id="feed">Kontakty na spätnú väzbu</h4>
+    <form id="form" action="">
+      <input type="email" id="email" name="email" placeholder="E-mail, phone, name" required>
+      <input type="submit" id="submit" value="SEND" class="submit">
+    </form>
+  </div>
+  <div class="contact-wrapper">
+    <h4 class="text_footer" id="leave">Zostaňte v kontakte s nami</h4>
+    <div class="wrapper">
+      <ul class="social-menu">
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><img src="./image/inst.svg" width="20px" height="20px"> </a></li>
+        <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i><img src="./image/telegram.svg" width="20px" height="20px"></a></li>
+        <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i><img src="./image/whatsapp-svgrepo-com.svg" width="20px" height="20px"></a></li>
+        <li><a href="tel:+16273812312312"><i class="fa fa-youtube-play" aria-hidden="true"></i><img src="./image/phone.svg" width="20px" height="20px"></a></li>
+      </ul>
+      <a class="contact-footer contact-tel" href="tel:+16273812312312"></i>000-000-0011</a>
+    </div>
+  </div>
+  
+</div>
+</section>
+<div id="popup" class="popup">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#header" class="popup__close"><img src="image/closesvg.svg" width="20px" height="20px"></a>
+            <div class="popup__title" id="popupname1">Inštalatérske práce</div>
+            <div class="popup_text_price">
+                <div class="popup__text" id="vyzovsa"> — Výzva vodoinštalatéra k vám domov</div>
+                <div class="popup__price" id="od1"> od 20€</div>
+            </div>
+            <div class="popup_text_price">
+                <div class="popup__text" id="odstra"> — Odstránenie upchatí</div>
+                <div class="popup__price" id="od2"> od 25€</div>
+            </div>
+            <div class="popup_text_price">
+                <div class="popup__text" id="vyma2"> — Výmena a oprava batérií</div>
+                <div class="popup__price" id="od3"> od 30€</div>
+            </div>
+            <div class="popup_text_price">
+                <div class="popup__text" id="batare"> — Inštalácia batérie pre vaňu s sprchovým kútom</div>
+                <div class="popup__price" id="od4"> od 35€</div>
+            </div>
+            <div class="popup_text_price">
+                <div class="popup__text" id="demo"> — Montáž, demontáž a pripojenie WC</div>
+                <div class="popup__price" id="od5"> od 35€</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="popup1" class="popup1">
+    <a href="#header" class="popup1__area"></a>
+    <div class="popup1__body">
+        <div class="popup1__content">
+            <a href="#header" class="popup1__close"><img src="image/closesvg.svg" width="20px" height="20px"></a>
+            <div class="popup1__title" id="popupname2">Inštalácia klimatizácie</div>
+            <div class="popup_text_price">
+              <div class="popup__text" id="servisklim"> — Servis klimatizácie - Singlesplit</div>
+              <div class="popup__price" id="od11"> od 70€</div>
+          </div>
+          <div class="popup_text_price">
+              <div class="popup__text" id="servisjed"> — Servis klimatizácie - vnútorná nástenná jednotka</div>
+              <div class="popup__price" id="od12"> od 31€</div>
+          </div>
+          <div class="popup_text_price">
+              <div class="popup__text" id="servisvon"> — Servis klimatizácie - vonkajšie jednotky multisplit</div>
+              <div class="popup__price" id="od13"> od 43€</div>
+          </div>
+          <div class="popup_text_price">
+              <div class="popup__text" id="serviskaz"> — Servis klimatizácie - vnútorné kazety Multisplit</div>
+              <div class="popup__price" id="od14"> od 39€</div>
+          </div>
+          <div class="popup_text_price">
+              <div class="popup__text" id="servisvnu"> — Servis klimatizácie - vnútorná podstropná jednotka</div>
+              <div class="popup__price" id="od15"> od 39€</div>
+          </div>
+          <div class="popup_text_price">
+            <div class="popup__text" id="servisstit"> — Pridelenie kontrolných štítkov</div>
+            <div class="popup__price" id="od16"> od 59€</div>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="popup2" class="popup2">
+    <a href="#header" class="popup2__area"></a>
+    <div class="popup2__body">
+        <div class="popup2__content">
+            <a href="#header" class="popup2__close"><img src="image/closesvg.svg" width="20px" height="20px"></a>
+            <div class="popup2__title" id="namevyk">Inštalácia vykurovania</div>
+            <div class="popup_text_price">
+              <div class="popup__text" id="radiator"> — Inštalácia vykurovacích radiátorov</div>
+          </div>
+          <div class="popup_text_price">
+              <div class="popup__text" id="podlaho"> — Inštalácia podlahového vykurovania</div>
+
+          </div>
+          <div class="popup_text_price">
+              <div class="popup__text" id="plynove"> — Inštalácia plynového kotla</div>
+
+          </div>
+          <div class="popup_text_price">
+              <div class="popup__text" id="ekotla"> — Inštalácia elektrického kotla</div>
+
+          </div>
+          <div class="popup_text_price">
+              <div class="popup__text" id="kluc"> — Inštalácia systému podlahového vykurovania (na kľúč)</div>
+
+          </div>
+        </div>
+    </div>
+</div>
+<div id="popup3" class="popup2">
+  <a href="#header" class="popup2__area"></a>
+  <div class="popup2__body">
+      <div class="popup2__content">
+          <a href="#header" class="popup2__close"><img src="image/closesvg.svg" width="20px" height="20px"></a>
+          <div class="popup2__title" id="elpopname">Elektrická inštalácia</div>
+          <div class="popup_text_price">
+            <div class="popup__text" id="vyzovel"> — Výzva elektrikára k vám domov</div>
+            <div class="popup__price" id="od20"> od 20€</div>
+        </div>
+        <div class="popup_text_price">
+            <div class="popup__text" id="monel"> — Montáž a oprava zásuviek</div>
+            <div class="popup__price" id="od25"> od 25€</div>
+        </div>
+        <div class="popup_text_price">
+            <div class="popup__text" id="osvetle"> — Inštalácia osvetlenia (lustre, stolové lampy, svetlá LED)</div>
+            <div class="popup__price" id="od30"> od 30€</div>
+        </div>
+        <div class="popup_text_price">
+            <div class="popup__text" id="draz"> — Drážkovanie stien a stropov na elektroinštalácie</div>
+            <div class="popup__price" id="od35"> od 35€</div>
+        </div>
+        <div class="popup_text_price">
+            <div class="popup__text" id="vyma"> — Inštalácia elektrických rozvádzačov a výmena automatických vypínačov</div>
+            <div class="popup__price" id="od351">od 35€</div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- Слайдер 1 -->
+<div class="popup-container" id="slider1">
+    <div class="slider-frame">
+        <span class="close-icon" id="closeSlider1"><img src="image/closesvg.svg" width="20px" height="20px"></span>
+        <div class="image-slider">
+            <div class="slider-images">
+              <div class="slider-slide">
+                <img src="./image/electr/1e1fe83e-616c-4dda-b5e1-3b59bb3d0948.jpg">
+              </div>
+                <div class="slider-slide">
+                    <img src="./image/electr/04bf3f91-e89a-4921-9835-3d7a12a9917d.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/electr/193c1797-11ad-434b-a11b-211e2397a2a5.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/electr/1d4bfd86-fe29-41e2-b64a-cca54b54be6d.jpg">
+                </div>
+                
+                <div class="slider-slide">
+                  <img src="./image/electr/20a32266-1a59-4d6b-820c-24fd4629e9b6.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/electr/22341c3a-7a2a-4763-bdba-621f6f641b3b.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/electr/3bd08546-7d7c-49a3-b1aa-482d15cbcbe8.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/electr/42f5bf0c-0e3c-4870-af4b-c982e035cbc2.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/electr/454b5669-79b3-42e5-b4cc-dd52a8536f5f.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/electr/4ccd4774-ed4d-4090-b82b-001b8dd53c26.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/electr/8988c1c7-4e83-4837-87cc-82447eab575d.jpg">
+                </div>
+                
+                <div class="slider-slide">
+                  <img src="./image/electr/ff0fe23d-58b8-48d4-bd0c-139ead500971.jpg">
+                </div>
+            </div>
+            <button class="slider-btn-prev" id="prevBtn1">&#10094;</button>
+            <button class="slider-btn-next" id="nextBtn1">&#10095;</button>
+        </div>
+    </div>
+</div>
+
+<!-- Слайдер 2 -->
+<div class="popup-container" id="slider2">
+    <div class="slider-frame">
+      <span class="close-icon" id="closeSlider1"><img src="image/closesvg.svg" width="20px" height="20px"></span>
+        <div class="image-slider">
+            <div class="slider-images">
+                <div class="slider-slide">
+                    <img src="./image/sant/04b3a603-08ac-4945-8401-e2b508cd831b.jpg">
+                </div>
+                <div class="slider-slide">
+                    <img src="./image/sant/09917922-8bb5-42e1-be36-740a143c18b5.jpg" >
+                </div>
+                <div class="slider-slide">
+                    <img src="./image/sant/2e2e4b26-198f-4433-bbdf-77bc35008a4a.jpg">
+                </div>
+                <div class="slider-slide">
+                  <img src="./image/sant/3766c826-5fe6-4ef3-b210-a581566adc7c.jpg">
+              </div>
+              <div class="slider-slide">
+                  <img src="./image/sant/4023feda-2ab9-4470-8c46-98c53f66f9cc.jpg" >
+              </div>
+              <div class="slider-slide">
+                  <img src="./image/sant/47d58bcc-a0dd-470d-a5c8-c67e23393ca5.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/6c3af578-6916-45b3-8cc2-f83ba4c2e900.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/809c8153-4bd5-4668-a6a4-18faac4e363d.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/9296f1f4-115e-4909-bc93-3632156882cf.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/9ec0aed0-55bf-4c99-82d5-f17c10f7dca6.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/aa126daf-847d-4ec7-9a45-3417380ab427.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/af3f6e46-7f8d-4afa-92c8-df928ae2a893.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/bf90ac82-fcbf-4d59-86a0-40f93b6ff88c.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/cdb8fa17-6109-466d-abb7-2f929ff1cf24.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/sant/fda7a052-a545-4ad4-bf4d-71f1a6317a2e.jpg">
+              </div>
+            </div>
+            <button class="slider-btn-prev" id="prevBtn2">&#10094;</button>
+            <button class="slider-btn-next" id="nextBtn2">&#10095;</button>
+        </div>
+    </div>
+</div>
+
+<!-- Слайдер 3 -->
+<div class="popup-container" id="slider3">
+    <div class="slider-frame">
+      <span class="close-icon" id="closeSlider1"><img src="image/closesvg.svg" width="20px" height="20px"></span>
+        <div class="image-slider">
+            <div class="slider-images">
+              <div class="slider-slide">
+                <img src="./image/konder/2e8b82d9-bdde-4154-9c48-c1e8d755d8f8.jpg">
+              </div>
+            </div>
+            <button class="slider-btn-prev" id="prevBtn3">&#10094;</button>
+            <button class="slider-btn-next" id="nextBtn3">&#10095;</button>
+        </div>
+    </div>
+</div>
+
+<!-- Слайдер 4 -->
+<div class="popup-container" id="slider4">
+    <div class="slider-frame">
+      <span class="close-icon" id="closeSlider1"><img src="image/closesvg.svg" width="20px" height="20px"></span>
+        <div class="image-slider">
+            <div class="slider-images">
+              <div class="slider-slide">
+                <img src="./image/otop/9ee10f4d-1cf5-47a8-aa13-3114c013afa1.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/otop/a3bb0683-6275-40bc-8079-31e0d2be710b.jpg">
+              </div>
+              <div class="slider-slide">
+                <img src="./image/otop/a30ade3b-b587-4e1d-8dd9-888f122c1439.jpg">
+              </div>
+            </div>
+            <button class="slider-btn-prev" id="prevBtn4">&#10094;</button>
+            <button class="slider-btn-next" id="nextBtn4">&#10095;</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="./script.js"></script>
+  </body>
+</html>
+
